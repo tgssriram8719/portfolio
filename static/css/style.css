@@ -386,8 +386,8 @@ a {
 }
 
 .profile-avatar {
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     margin: 0 auto 30px;
     background: var(--gradient);
     border-radius: 50%;
@@ -399,6 +399,15 @@ a {
     color: var(--white);
     position: relative;
     overflow: hidden;
+    padding: 4px;
+}
+
+.profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid var(--dark);
 }
 
 .profile-stats {
@@ -952,10 +961,14 @@ a {
 
 /* Contact Section */
 .contact-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 60px;
+    display: flex;
+    justify-content: center;
     align-items: start;
+}
+
+.contact-info {
+    text-align: center;
+    max-width: 600px;
 }
 
 .contact-info h3 {
@@ -973,6 +986,7 @@ a {
     flex-direction: column;
     gap: 20px;
     margin-bottom: 30px;
+    align-items: center;
 }
 
 .contact-item {
@@ -1011,6 +1025,7 @@ a {
 .contact-social {
     display: flex;
     gap: 15px;
+    justify-content: center;
 }
 
 .social-btn {
