@@ -94,9 +94,9 @@ img {
 }
 
 .nav-container {
-    max-width: var(--container-wide);
-    margin: 0 auto;
-    padding: 0 24px;
+    max-width: 100%;
+    margin: 0;
+    padding: 0 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -108,6 +108,7 @@ img {
     font-weight: 700;
     color: var(--color-text);
     letter-spacing: -0.01em;
+    margin-right: auto;
 }
 
 .nav-logo:hover {
