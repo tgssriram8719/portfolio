@@ -7,7 +7,7 @@ def home():
     # Portfolio Data
     portfolio_data = {
         "name": "TENTU GOWRI SUBRAHMANYA SRI RAM",
-        "title": "Software Developer | Cloud Enthusiast | AI Explorer",
+        "title": "Software Developer | Cloud Engineer | AI Explorer",
         "email": "t.gssriram8719@gmail.com",
         "linkedin": "https://www.linkedin.com/in/tentu-gowri-subrahmanya-sri-ram-a74655334",
         "github": "https://github.com/tgssriram8719",
