@@ -88,6 +88,14 @@ def home():
                 "link": "https://www.unipeasy.com/",
             },
             {
+                "title": "Business Intelligence & Revenue Dashboard",
+                "description": "Developed a responsive revenue dashboard to monitor business revenue, client metrics, and industry-wise performance. Integrated Google Sheets for data collection and visualization, and used n8n to automate workflows and streamline data processing between connected services.",
+                "tech": ["React", "TypeScript", "n8n", "Google Sheets", "Recharts", "Tailwind CSS"],
+                "category": "Business Intelligence",
+                "image": "images/revenue-dashboard.png",
+                "link": "https://github.com/tgssriram8719/revenue-dashboard",
+            },
+            {
                 "title": "Cyber Risk Scoring & Threat Intelligence Platform",
                 "description": "Built a dynamic risk-scoring engine that evaluates system vulnerabilities based on severity, exposure, and real-world exploitability, aggregating threat intelligence to support security analysis.",
                 "tech": ["Python", "Data Analysis", "Cybersecurity"],
