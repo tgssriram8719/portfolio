@@ -11,8 +11,7 @@ def home():
         "email": "t.gssriram8719@gmail.com",
         "linkedin": "https://www.linkedin.com/in/tentu-gowri-subrahmanya-sri-ram-a74655334",
         "github": "https://github.com/tgssriram8719",
-        "about": "Final-year Computer Science student passionate about becoming an AI/ML Engineer, with hands-on experience building machine learning models and AI-powered systems. I enjoy applying strong foundations in Python, data structures, and machine learning to solve real-world problems.",
-        
+        "about": "Final-year Computer Science student passionate about becoming an AI/ML Engineer, with hands-on experience building machine learning models and AI-powered systems.",     
         "education": [
             {
                 "degree": "B.Tech in Computer Science And Engineering",
