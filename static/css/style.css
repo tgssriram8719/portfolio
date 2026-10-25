@@ -390,6 +390,20 @@ img {
     line-height: 1.7;
 }
 
+.experience-highlights {
+    padding-left: 20px;
+    color: var(--color-text-muted);
+}
+
+.experience-highlights li {
+    padding-left: 4px;
+    margin-bottom: 8px;
+}
+
+.experience-highlights li:last-child {
+    margin-bottom: 0;
+}
+
 /* ===== Projects ===== */
 .projects-grid {
     display: grid;

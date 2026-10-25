@@ -7,18 +7,18 @@ def home():
     # Portfolio Data
     portfolio_data = {
         "name": "TENTU GOWRI SUBRAHMANYA SRI RAM",
-        "title": "Software Developer | Cloud Engineer | AI Explorer",
+        "title": "AI/ML Engineer | Software Developer | Cloud Enthusiast",
         "email": "t.gssriram8719@gmail.com",
         "linkedin": "https://www.linkedin.com/in/tentu-gowri-subrahmanya-sri-ram-a74655334",
         "github": "https://github.com/tgssriram8719",
-        "about": "A dedicated and enthusiastic student with strong problem-solving and analytical abilities, coupled with excellent communication, teamwork, and time management skills. I am eager to utilize my skills and passion to effectively contribute to software development and support my team in achieving company objectives.",
+        "about": "Final-year Computer Science student passionate about becoming an AI/ML Engineer, with hands-on experience building machine learning models and AI-powered systems. I enjoy applying strong foundations in Python, data structures, and machine learning to solve real-world problems.",
         
         "education": [
             {
                 "degree": "B.Tech in Computer Science And Engineering",
                 "institution": "Dhanekula Institute of Engineering and Technology",
                 "year": "Present",
-                "score": "CGPA: 8.95"
+                "score": "CGPA: 8.83"
             },
             {
                 "degree": "Intermediate in MPC",
@@ -36,49 +36,72 @@ def home():
         
         "skills": {
             "languages": ["Java", "Python", "C", "SQL", "JavaScript"],
-            "concepts": ["Object Oriented Programming", "Database Management System", "Data Structures & Algorithms"],
-            "technologies": ["React.js", "AWS", "Flask", "Arduino"],
+            "machine_learning": ["NumPy", "Pandas", "PyTorch", "TensorFlow", "Matplotlib", "Seaborn", "Model Training"],
+            "frameworks": ["React.js", "Firebase", "Streamlit"],
+            "tools": ["Git", "GitHub", "VS Code", "Firestore", "AWS", "Vercel", "Antigravity"],
+            "concepts": ["Data Structures & Algorithms", "Object-Oriented Programming", "Database Management Systems"],
             "soft_skills": ["Team Work", "Time Management", "Communication", "Leadership"]
         },
         
         "experience": [
             {
+                "title": "AI Machine Learning Engineer Intern",
+                "company": "Blackbucks Education Pvt. Ltd.",
+                "duration": "May 2026 - Jul 2026",
+                "highlights": [
+                    "Completed an 8-week short-term internship in AI and Machine Learning under APSCHE guidelines.",
+                    "Participated in structured training sessions, practical assignments, and project-based learning focused on industry-relevant machine learning skills."
+                ],
+            },
+            {
+                "title": "Cyber Security Intern",
+                "company": "Infosys Springboard",
+                "duration": "Nov 2025 - Jan 2026",
+                "highlights": [
+                    "Developed a Cyber Risk Scoring and Threat Intelligence Aggregation Platform using Python to identify system vulnerabilities.",
+                    "Built a dynamic risk model that evaluates vulnerabilities based on severity, exposure, and real-world exploitability."
+                ],
+            },
+            {
                 "title": "AWS Cloud Intern",
-                "company": "Brain o Vision Solutions Pvt.Ltd",
-                "duration": "FEB 2025 - JUNE 2025 (4 months)",
-                "description": "Worked on real-time projects involving Amazon Web Services (AWS), gaining hands-on experience with cloud services and deployment workflows. Strengthened technical skills, enhanced problem-solving abilities, and gained valuable exposure to professional project execution and industry practices.",
+                "company": "Brain o Vision Solutions Pvt. Ltd.",
+                "duration": "Feb 2025 - Jun 2025",
+                "highlights": [
+                    "Worked on real-time projects involving Amazon Web Services (AWS), gaining hands-on experience with cloud services and deployment pipelines.",
+                    "Strengthened technical and problem-solving skills through exposure to professional project execution and industry practices."
+                ],
             }
         ],
         
         "projects": [
             {
-                "title": "UniPeasy",
-                "description": "A web platform designed to simplify academic life for university students. Provides easy access to study resources, academic tools, and streamlined workflows to help students manage their coursework efficiently.",
-                "tech": ["Python", "Flask", "JavaScript", "HTML/CSS"],
-                "category": "Web Application",
+                "title": "Brain Tumor Detection",
+                "description": "Built an AI-based MRI classification system using EfficientNetB0 to classify four brain tumor categories, achieving 90.3% test accuracy on 7,200 MRI images. Developed a full-stack application with authentication, prediction history, doctor remarks, and automated report generation.",
+                "tech": ["Python", "TensorFlow", "EfficientNetB0", "FastAPI", "React"],
+                "category": "Machine Learning",
+            },
+            {
+                "title": "UniPeasy - AI-Powered Study Platform",
+                "description": "Built and deployed a full-stack AI-powered study platform for engineering students. Integrated Google Gemini AI to power an AI Learning Assistant, Exam Strategist, and Skill Accelerator.",
+                "tech": ["React.js", "Firebase", "Google Gemini AI", "Vercel"],
+                "category": "Full-Stack Development",
                 "image": "images/unipeasy.png",
                 "link": "https://www.unipeasy.com/",
             },
             {
-                "title": "Business Intelligence Dashboard AI",
-                "description": "Fully automated Business Intelligence dashboard that can be managed using Telegram bot to update a client's revenue with a simple sentence.",
-                "tech": ["Telegram Bot", "Custom BI Dashboard", "n8n.io", "Google Gemini AI", "Google Sheets"],
-                "category": "AI/Automation",
+                "title": "Cyber Risk Scoring & Threat Intelligence Platform",
+                "description": "Built a dynamic risk-scoring engine that evaluates system vulnerabilities based on severity, exposure, and real-world exploitability, aggregating threat intelligence to support security analysis.",
+                "tech": ["Python", "Data Analysis", "Cybersecurity"],
+                "category": "Cybersecurity",
             },
-            {
-                "title": "IoT Based Smart Glasses for Blind",
-                "description": "Smart glasses serving as a third eye for visually impaired individuals. Uses ultrasonic sensors for obstacle detection with haptic/audio feedback.",
-                "tech": ["Arduino Nano", "HC-SR04 Ultrasonic Sensor", "Buzzer", "Vibration Motor", "C++"],
-                "category": "IoT/Hardware",
-            }
         ],
         
         "certifications": [
-            {"name": "Python Foundation", "issuer": "Infosys Spring Board", "date": "Sep 2024"},
-            {"name": "JAVA", "issuer": "Udemy", "date": "Jul 2024"},
-            {"name": "Database Management System", "issuer": "Infosys Spring Board", "date": "Jan 2025"},
+            {"name": "Microsoft Certified: SQL AI Developer Associate", "issuer": "Microsoft", "date": "Jul 2026"},
             {"name": "Introduction to Artificial Intelligence", "issuer": "Google", "date": "May 2025"},
-            {"name": "Artificial Intelligence", "issuer": "Oracle", "date": "Jun 2025"}
+            {"name": "Database Management System", "issuer": "Infosys Springboard", "date": "Jan 2025"},
+            {"name": "Python Foundation", "issuer": "Infosys Spring Board", "date": "Sep 2024"},
+            {"name": "JAVA", "issuer": "Udemy", "date": "Jul 2024"}
         ],
     }
     

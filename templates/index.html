@@ -102,10 +102,26 @@
                     </div>
                 </div>
                 <div class="skill-group">
-                    <h3>Technologies</h3>
+                    <h3>Machine Learning</h3>
                     <div class="tag-list">
-                        {% for tech in data.skills.technologies %}
-                        <span class="tag">{{ tech }}</span>
+                        {% for skill in data.skills.machine_learning %}
+                        <span class="tag">{{ skill }}</span>
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h3>Frameworks</h3>
+                    <div class="tag-list">
+                        {% for framework in data.skills.frameworks %}
+                        <span class="tag">{{ framework }}</span>
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h3>Tools &amp; Platforms</h3>
+                    <div class="tag-list">
+                        {% for tool in data.skills.tools %}
+                        <span class="tag">{{ tool }}</span>
                         {% endfor %}
                     </div>
                 </div>
@@ -134,7 +150,15 @@
                     </div>
                     <span class="experience-date">{{ exp.duration }}</span>
                 </div>
+                {% if exp.highlights %}
+                <ul class="experience-highlights">
+                    {% for highlight in exp.highlights %}
+                    <li>{{ highlight }}</li>
+                    {% endfor %}
+                </ul>
+                {% else %}
                 <p>{{ exp.description }}</p>
+                {% endif %}
             </div>
             {% endfor %}
         </div>
